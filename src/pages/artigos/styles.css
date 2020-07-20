@@ -1,0 +1,29 @@
+
+.section-artigos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px ;
+}
+.box-texts-artigo{
+    margin: 15px;
+    width: 600px;
+}
+@media (max-width: 480px){
+    .section-artigos{
+       display: flex;
+       flex-direction: column;
+       align-items: normal;
+    }
+    .box-texts-artigo{
+        width: 280px;
+    }
+    .box-texts-artigo h3{
+        font-size: 18px;
+    }
+    .box-conteudo img {
+        width: 100%;
+        height: 200px;
+    }
+}

@@ -1,0 +1,70 @@
+.footer{
+    background-color: #331818;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffc310;
+}
+
+.icon-redes-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-redes p{
+    margin-top: 10px;
+}
+.icon-redes{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 2px #ffc310;
+}
+.box-icon-redes{
+    display: flex;
+}
+.icon-site-baoba {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 790px;
+    margin-top: -217px;
+    text-align: center;
+    color: aliceblue;
+}
+.icon-site-baoba img {
+    width: 62px;
+}
+
+.img-footer{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-gitHub{
+    margin-top: 9px;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+@media (max-width: 480px){
+    .footer p {
+        font-size: 10px;
+    }
+    .icon-site-baoba{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .icon-site-baoba img {
+        width: 40px;
+        height: 50px;
+    }
+}

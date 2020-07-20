@@ -1,0 +1,43 @@
+.box-contact{
+    width: 100%;
+    background-color: #D6C054;
+    height: 100%;
+}
+.box-news{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+.box-img-banner{
+    display: flex;
+    max-width: 500px;
+    margin: 20px;
+}
+.box-img-banner p{
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+@media (max-width: 480px){
+    .box-news{
+       display: flex;
+       padding: 60px;
+      
+    }
+    .box-img-banner p{
+        font-size: 15px;
+        margin-top: 20;
+        margin-left: 0;
+    }
+    .box-img-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-img-banner img{
+        width: 150px;
+        height: 150px;
+
+    }
+   
+}
