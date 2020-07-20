@@ -15,13 +15,6 @@ import infoGrafico from '../../assets/infografico.png';
 import MainTitle from '../../components/layoutPieces/mainTitle'
 import './styles.css';
 
-var imagens = [
-    "https://www.cleverfiles.com/howto/wp-content/uploads/2016/08/mini.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/e/e0/JPEG_example_JPG_RIP_050.jpg",
-    "https://image.freepik.com/fotos-gratis/hrc-tigre-siberiano-2-jpg_21253111.jpg"
-];
-
-
 function Mitos() {
 
     return (
