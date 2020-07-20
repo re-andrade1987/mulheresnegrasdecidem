@@ -16,17 +16,17 @@
     width: 350px;
     height: 200px;
 }
-/*.box-texts{
+.box-texts{
     width: 400px;
     text-align: left;
     margin-left: 20px;
-}*/
-.box-texts p{
+}
+/*.box-texts p{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     width: 600px;                   
-}
+}*/
 .link-podcast{
     color: #FFC310;
     font-family: Montserrat;
@@ -42,7 +42,6 @@
 .box-conteudo{
     display: flex;
     margin-top: 30px;
-    padding: 20px;
 }
 @media (max-width: 796px){
     .box-conteudo{
@@ -57,9 +56,7 @@
     }
     .box-texts{
         margin: 15px;
-    }
-    .box-texts{
-        margin: 15px;
+        width: 300px;
     }
     .box-texts h2 {
         font-size: 20px;

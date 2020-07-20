@@ -9,9 +9,6 @@ import './styles.css';
 function Podcast() {
     return (
         <section className='section-podcast'>
-            <div className="first-box-banner">
-                <img src={bannerPodcast} alt="banner-mulheres" />
-            </div>
             <SubTitle value="Podcast" />
             <div className='box-conteudo'>
                 <img src={ImgP1} alt="logo" />
