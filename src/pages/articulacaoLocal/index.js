@@ -6,7 +6,7 @@ import banner_atividades from '../../assets/banner_atividades.png'
 
 
 
-function AtividadesPresenciais() {
+function ArticulacaoLocal() {
     return (
         <section className="section-atividades">
             <div className="box-img-banner-atividades">
@@ -87,4 +87,4 @@ function AtividadesPresenciais() {
     )
 }
 
-export default AtividadesPresenciais
+export default ArticulacaoLocal

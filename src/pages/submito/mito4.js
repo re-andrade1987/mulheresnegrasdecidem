@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cartelaMito8 from '../../assets/cartela_mito_8.png';
+import cartelaMito4 from '../../assets/cartela_mito_4.png';
 
 import './styles.css';
 
@@ -9,7 +9,7 @@ class Mito4 extends Component {
         return (
             <section className="section-mito1">
                 <div className="box-mitos-banner">
-                    <img src={cartelaMito8} alt="logo" />
+                    <img src={cartelaMito4} alt="logo" />
                 </div>
             </section>
         );

@@ -44,27 +44,27 @@ function Mitos() {
                 <Link to="/Mito1">
                     <img className='img1' onclick="marcar(this)" src={Mito1} alt="mito1" />
                 </Link>
-                <Link to="/Mito1">
+                <Link to="/Mito2">
                     <img className='img1' onclick="marcar(this)" src={Mito2} alt="mito2" />
                 </Link>
-                <Link to="/Mito1">
+                <Link to="/Mito3">
                     <img className='img1' onclick="marcar(this)" src={Mito3} alt="mito3" />
                 </Link>
-                <Link to="/Mito1">
+                <Link to="/Mito4">
                     <img className='img1' onclick="marcar(this)" src={Mito4} alt="mito4" />
                 </Link>
             </div>
             <div className="box-mitos">
-                <Link to="/Mito1">
+                <Link to="/Mito5">
                     <img className='img1' onclick="marcar(this)" src={Mito5} alt="mito5" />
                 </Link>
-                <Link to="/Mito1">
+                <Link to="/Mito6">
                     <img className='img1' onclick="marcar(this)" src={Mito6} alt="mito6" />
                 </Link>
-                <Link to="/Mito1">
+                <Link to="/Mito7">
                     <img className='img1' onclick="marcar(this)" src={Mito7} alt="mito7" />
                 </Link>           
-                <Link to="/Mito1">
+                <Link to="/Mito8">
                     <img className='img1' onclick="marcar(this)" src={Mito8} alt="mito8" />
                 </Link>  
             </div>
