@@ -13,7 +13,7 @@ class KitFormacao extends Component {
         return (
             <section className="section-esteja-preparada">
                 <img className="banner-preparada" src={banner} alt="banner-mulheres" />
-                <MainTitle value="Esteja Preparada" />
+                <MainTitle value="Dados" />
                 <div className="box-formacao">
                     <div className="box-subtitle">
                         <p> Kits de Formação Lorem ipsum dolor sit amet, consectetur adipiscing elit,

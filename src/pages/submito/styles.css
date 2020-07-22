@@ -1,8 +1,9 @@
 .section-mito1{
-    background-color: #FFC310;
+    background-color: #ffd700;
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 
 }
 .section-mito1 img {

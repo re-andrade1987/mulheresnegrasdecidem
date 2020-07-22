@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Mito1 from '../../assets/mito1-branco.png';
 import Mito2 from '../../assets/mito2-branco.png';

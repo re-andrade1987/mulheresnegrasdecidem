@@ -66,6 +66,7 @@
     }
     .box-texts p {
         width: 100%;
+        font-size: 13px;
     }
     .link-podcast {
         margin-left: 0px; 
