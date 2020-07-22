@@ -17,8 +17,8 @@ class NavbarHeader extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" id="nav-fixa">
             <NavLink><Link to="/"><li>Sobre</li></Link></NavLink>
-            <NavLink><Link to="/relatorio"><li>Relatório</li></Link></NavLink>
-            <NavDropdown title="Recursos Mdn" id="basic-nav-dropdown">
+            <NavLink><Link to="/relatorio"><li>Relatórios</li></Link></NavLink>
+            <NavDropdown title="Recursos Mnd" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/estejaPreparada"><li className="item-lista">Esteja Preparada</li></Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/mitos" ><li className="item-lista">Mitos</li></Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/artigos"><li className="item-lista">Artigos</li></Link></NavDropdown.Item>
@@ -26,7 +26,7 @@ class NavbarHeader extends Component {
             <NavLink><Link to="/podcast"><li>Podcast</li></Link></NavLink>
             <NavDropdown title="Onde Estamos" id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/noticias"><li className="item-lista">Nóticias</li></Link></NavDropdown.Item>
-              <NavDropdown.Item><Link to="/atividadesPresenciais"><li className="item-lista">Ativades presenciais</li></Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/atividadesPresenciais"><li className="item-lista">Articulação local</li></Link></NavDropdown.Item>
             </NavDropdown>
             <div className="icon-redes-nav">
               <a target='blank' href='https://twitter.com/MNdecidem'><img src={twitter} alt="logo-twitter" /></a>

@@ -9,7 +9,7 @@ import agencia from '../../assets/agencia.png';
 function Noticias() {
     return (
         <section className="box-contact">
-            <MainTitle value="Noticias" />
+            <MainTitle value="Nóticias" />
             <div className="box-news">
                 <div className="box-img-banner">
                     <img src={rioOn} alt="rio-on" />

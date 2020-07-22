@@ -1,12 +1,13 @@
 .footer{
     background-color: #331818;
-    height: 350px;
+    height: 280px;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     color: #ffc310;
+    font-weight: bold;
 }
 
 .icon-redes-footer{
@@ -16,21 +17,20 @@
 .icon-redes p{
     margin-top: 10px;
 }
-.icon-redes{
-    display: flex;
-    justify-content: space-around;
-    border-top: solid 2px #ffc310;
-}
 .box-icon-redes{
     display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px #ffc310;
+}
+.icon-rede-git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
 }
 .icon-site-baoba {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     margin-left: 790px;
     margin-top: -217px;
     text-align: center;
@@ -41,18 +41,16 @@
 }
 
 .img-footer{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .img-gitHub{
-    margin-top: 9px;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+    width: 35px;
+    height: 35px;
 }
 @media (max-width: 480px){
     .footer p {
