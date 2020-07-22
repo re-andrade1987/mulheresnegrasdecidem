@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.746b1b69.chunk.css",
-    "main.js": "/static/js/main.f0f1af61.chunk.js",
-    "main.js.map": "/static/js/main.f0f1af61.chunk.js.map",
+    "main.css": "/static/css/main.8bdc288d.chunk.css",
+    "main.js": "/static/js/main.15c1ae36.chunk.js",
+    "main.js.map": "/static/js/main.15c1ae36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95f26041.js",
     "runtime-main.js.map": "/static/js/runtime-main.95f26041.js.map",
     "static/css/2.4819d237.chunk.css": "/static/css/2.4819d237.chunk.css",
-    "static/js/2.41342de4.chunk.js": "/static/js/2.41342de4.chunk.js",
-    "static/js/2.41342de4.chunk.js.map": "/static/js/2.41342de4.chunk.js.map",
+    "static/js/2.b33a81b0.chunk.js": "/static/js/2.b33a81b0.chunk.js",
+    "static/js/2.b33a81b0.chunk.js.map": "/static/js/2.b33a81b0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.805113ff54f3dfe56f719bb402c00254.js": "/precache-manifest.805113ff54f3dfe56f719bb402c00254.js",
+    "precache-manifest.f50680dac64183f8ff5c2af5a20eed0a.js": "/precache-manifest.f50680dac64183f8ff5c2af5a20eed0a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4819d237.chunk.css.map": "/static/css/2.4819d237.chunk.css.map",
-    "static/css/main.746b1b69.chunk.css.map": "/static/css/main.746b1b69.chunk.css.map",
-    "static/js/2.41342de4.chunk.js.LICENSE.txt": "/static/js/2.41342de4.chunk.js.LICENSE.txt",
+    "static/css/main.8bdc288d.chunk.css.map": "/static/css/main.8bdc288d.chunk.css.map",
+    "static/js/2.b33a81b0.chunk.js.LICENSE.txt": "/static/js/2.b33a81b0.chunk.js.LICENSE.txt",
     "static/media/agencia.png": "/static/media/agencia.6ba55325.png",
     "static/media/artigo.png": "/static/media/artigo.8b0bdc06.png",
     "static/media/banner-mitos.png": "/static/media/banner-mitos.1559cc69.png",
-    "static/media/banner-podcast.png": "/static/media/banner-podcast.2bf8d263.png",
     "static/media/banner.png": "/static/media/banner.7bcda108.png",
     "static/media/banner_atividades.png": "/static/media/banner_atividades.dbf679d8.png",
     "static/media/banner_estejaPreparada.png": "/static/media/banner_estejaPreparada.983685e1.png",
@@ -53,8 +52,8 @@
   "entrypoints": [
     "static/js/runtime-main.95f26041.js",
     "static/css/2.4819d237.chunk.css",
-    "static/js/2.41342de4.chunk.js",
-    "static/css/main.746b1b69.chunk.css",
-    "static/js/main.f0f1af61.chunk.js"
+    "static/js/2.b33a81b0.chunk.js",
+    "static/css/main.8bdc288d.chunk.css",
+    "static/js/main.15c1ae36.chunk.js"
   ]
 }
