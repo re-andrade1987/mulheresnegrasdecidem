@@ -9,6 +9,10 @@
 .box-texts-artigo{
     margin: 15px;
     width: 600px;
+    font-weight: bold;
+}
+.box-texts-artigo p{
+    font-size: 12px;   
 }
 @media (max-width: 480px){
     .section-artigos{
