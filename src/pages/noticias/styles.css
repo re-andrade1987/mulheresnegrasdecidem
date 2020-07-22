@@ -2,6 +2,9 @@
     width: 100%;
     background-color: #D6C054;
     height: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
 }
 .box-news{
     display: flex;
@@ -13,6 +16,10 @@
     display: flex;
     max-width: 500px;
     margin: 20px;
+}
+.box-img-banner img{
+    width: 220px;
+    height: 220px;
 }
 .box-img-banner p{
   font-size: 23px;

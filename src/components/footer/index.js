@@ -12,6 +12,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
+                <img className='logo-footer' src={logo} alt="logo" />
                 <div className="box-icon-redes">
                     <div className="icon-redes-footer">
                         <a target='blank' href='https://twitter.com/MNdecidem'></a><img className='img-footer' src={twitterAmarelo} alt="logo-twitter" />
@@ -25,7 +26,6 @@ class Footer extends Component {
                     <a target='blank' href='https://github.com/MulheresNegrasDecidem'><img className='img-gitHub' src={githubAmarelo} alt="logo-github" /></a>
                 </div>
                 <div className="icon-site-baoba">
-                    <img className='' src={logo} alt="logo" />
                     <p>apoio:</p>
                     <a target='blank' href='https://baoba.org.br/'><img className='img-baobar' src={logoBaoba} alt="logo-baobar" /></a>
                 </div>

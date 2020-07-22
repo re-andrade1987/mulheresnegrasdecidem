@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
 }
 .box-title{
     background-color:#FFC310;

@@ -3,12 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
 }
 .box-mitos-banner {
     background-color: #ffd700;
  }
 .main-text-mito{
-    width: 700px;
+    max-width: 700px;
 }
 .box-mitos{
     margin-bottom: 30px;

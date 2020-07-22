@@ -1,6 +1,11 @@
 .nav-main{
-    padding: 50px !important;
-    margin-left: 100px !important;
+    padding: 60px !important;
+    margin-left: 80px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
 }
 button{
     width: 80px;
@@ -32,13 +37,15 @@ button{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
-    margin: 15px;
+    padding: 5px;
+    margin-top: 7px;
 }
 
 #basic-nav-dropdown:hover{
     background: #E84B4C;
     color: #ffc310;
 }
+
 
 .navbar-expand-lg .navbar-collapse {
     margin-top: 40px;
@@ -48,8 +55,8 @@ li{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
-    margin: 15px;
-
+    height: 30px;
+    padding: 5px
 }
 li:hover{
     background: #E84B4C;
@@ -64,7 +71,7 @@ a{
 .icon-redes-nav img{
     width: 20px;
     height: 20px;
-    margin: 15px;
+    margin: 8px 10px ;
 }
 .icon-redes-nav{
     margin-top: 8px;
@@ -75,8 +82,7 @@ a{
     .nav img{
         width: 80px;
         height: 50px;
-    }
-    
+    }    
 }
 @media (max-width: 480px){
     .nav img{

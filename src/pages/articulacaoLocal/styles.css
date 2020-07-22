@@ -1,3 +1,8 @@
+.section-atividades{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
 .atividades-presenciais{
     text-align: left;
     display: flex;
@@ -14,7 +19,7 @@
 }
 
 .box-texts-atividades{
-    max-width: 500px;
+    max-width: 700px;
 }
 
 @media (max-width: 796px){
