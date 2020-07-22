@@ -1,15 +1,14 @@
 import React from 'react';
 import ImgP1 from '../../assets/img1Pd.png';
 import ImgP2 from '../../assets/img2Pd.png';
-import SubTitle from '../../components/layoutPieces/subTitle';
-import bannerPodcast from '../../assets/banner-podcast.png';
+import MainTitle from '../../components/layoutPieces/mainTitle';
 
 import './styles.css';
 
 function Podcast() {
     return (
         <section className='section-podcast'>
-            <SubTitle value="Podcast" />
+            <MainTitle value="Podcast" />
             <div className='box-conteudo'>
                 <img src={ImgP1} alt="logo" />
                 <div className='box-texts'>

@@ -34,5 +34,8 @@
     .box-texts-atividades p{
         font-size: 12px;
     }
+    .box-img-banner-atividades {
+        height: 100px;
+    }
    
 }
