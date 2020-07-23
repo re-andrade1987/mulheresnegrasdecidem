@@ -79,16 +79,12 @@
 
 }
 
-
-
-
-
 @media (max-width: 480px){
-    .section-mitos p{
-        margin: 13px;
-    }
     .box-dados{
         height: 100%;
+    }
+    .textos{
+        width: 350px;
     }
     .box-mitos{
         display: flex;
@@ -111,6 +107,14 @@
     .main-text-mito {
         width: 100%
     }
-    
-   
+    .box-text-dados{
+        margin: 20px;
+    }
+    .textos p {
+        width: 320px;
+    }
+    .box-dados p{
+        font-size: 13px;
+    }
+
 }

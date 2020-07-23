@@ -15,6 +15,8 @@ import grafico4 from '../../assets/grafico4.png';
 
 
 import MainTitle from '../../components/layoutPieces/mainTitle'
+import Subtitle from '../../components/layoutPieces/subTitle'
+
 import './styles.css';
 
 function Mitos() {
@@ -25,23 +27,8 @@ function Mitos() {
                 <img id="agni" onclick="trocar()" class="img-gods expand" src={bannerMito} alt="banner-mito" />
             </div>
             <MainTitle value="Mitos" />
-            <div className='main-text-mito'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut venenatis tellus in metus vulputate eu scelerisque
-                felis. Orci dapibus ultrices in iaculis nunc sed augue. Sit
-                amet nisl suscipit adipiscing bibendum est ultricies integer
-                quis. Arcu non sodales neque sodales ut etiam sit amet nisl.
-                Adipiscing enim eu turpis egestas pretium. Non tellus orci ac
-                auctor augue mauris augue. Sed lectus vestibulum mattis
-                ullamcorper velit sed. Ut morbi tincidunt augue interdum.
-                Volutpat sed cras ornare arcu dui vivamus arcu. Metus vulputate
-                eu scelerisque felis imperdiet proin fermentum. Neque sodales ut
-                etiam sit. Ante metus dictum at tempor. Tellus elementum sagittis
-                vitae et leo duis. Suscipit tellus mauris a diam. Integer quis auctor
-                </p>
-            </div>
-            <MainTitle value="Clique nos mitos e entenda mais:" />
+
+            <Subtitle value="Clique nos mitos e entenda mais:" />
             <div className="box-mitos">
                 <Link to="/Mito1">
                     <img className='img1' onclick="marcar(this)" src={Mito1} alt="mito1" />
