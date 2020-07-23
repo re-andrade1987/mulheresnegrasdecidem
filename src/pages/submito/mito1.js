@@ -12,8 +12,9 @@ class Mito1 extends Component {
                 <div className="box-mitos-banner">
                     <img src={cartelaMito1} alt="logo" />
                 </div>
+                
                 <Link to="./mitos">
-                    <button className="btn-jumper">voltar</button>
+                    <button className="button">Voltar</button>
                 </Link>
             </section>
         );

@@ -13,7 +13,7 @@ class Mito8 extends Component {
                     <img src={cartelaMito8} alt="logo" />
                 </div>
                 <Link to="./mitos">
-                    <button className="btn-jumper">voltar</button>
+                    <button className="button">voltar</button>
                 </Link>
             </section>
         );

@@ -4,13 +4,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 .section-mito1 img {
     width: 960px;
     margin-top: 100px;
     margin-bottom: 100px;
-    
 }
 @media (max-width: 480px){
     .section-mito1 img{
