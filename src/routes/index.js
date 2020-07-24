@@ -20,6 +20,8 @@ import Mito5 from '../pages/submito/mito5';
 import Mito6 from '../pages/submito/mito6';
 import Mito7 from '../pages/submito/mito7';
 import Mito8 from '../pages/submito/mito8';
+import Podcast1 from '../pages/subpodcast/podcast1';
+
 
 
 const Routes = () => (
@@ -44,6 +46,8 @@ const Routes = () => (
     <Route exact path='/Mito6' component={Mito6} />
     <Route exact path='/Mito7' component={Mito7} />
     <Route exact path='/Mito8' component={Mito8} />
+    <Route exact path='/podcast1' component={Podcast1} />
+
   </Switch>
 );
 

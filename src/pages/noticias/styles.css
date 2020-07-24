@@ -17,6 +17,23 @@
     max-width: 500px;
     margin: 20px;
 }
+.link-noticias {
+    color: #E84B4C;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px;
+    border-bottom: 2px solid #E84B4C;
+    margin-left: 20px;
+    width: 78px;
+}
+.box-textos-noticias{
+    display: flex;
+    flex-direction: column;
+}
+.box-textos-noticias strong{
+    margin-left: 20px;
+}
 .box-img-banner img{
     width: 220px;
     height: 220px;

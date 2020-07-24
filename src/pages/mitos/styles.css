@@ -105,7 +105,11 @@
         height: 150px ;
      }
     .main-text-mito {
-        width: 100%
+        width: 100%;
+    }
+    .main-text-mito p {
+        margin: 20px;
+        font-size: 13px;
     }
     .box-text-dados{
         margin: 20px;

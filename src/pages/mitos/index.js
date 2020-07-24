@@ -13,8 +13,7 @@ import grafico from '../../assets/grafico_mulheres.png';
 import infoGrafico from '../../assets/infografico.png';
 import grafico4 from '../../assets/grafico4.png';
 
-
-import MainTitle from '../../components/layoutPieces/mainTitle'
+import MainTitle from '../../components/layoutPieces/mainTitle';
 import Subtitle from '../../components/layoutPieces/subTitle'
 
 import './styles.css';
@@ -27,7 +26,14 @@ function Mitos() {
                 <img id="agni" onclick="trocar()" class="img-gods expand" src={bannerMito} alt="banner-mito" />
             </div>
             <MainTitle value="Mitos" />
-
+            <div className='main-text-mito'>
+                <p>Os mitos aqui reunidos foram pensados a partir da troca que tivemos em 2018 com candidaturas de
+                 mulheres negras, nossos trânsitos  por espaços de debate político, e acúmulos sobre a temática que
+                 já tínhamos previamente.Compõe nossa primeira experiência com dados e narrativas e foi idealizado
+                 como ferramenta para superarmos parte das barreiras que impedem mais mulheres negras de atuarem na
+                 política institucional.
+                </p>
+            </div>
             <Subtitle value="Clique nos mitos e entenda mais:" />
             <div className="box-mitos">
                 <Link to="/Mito1">
