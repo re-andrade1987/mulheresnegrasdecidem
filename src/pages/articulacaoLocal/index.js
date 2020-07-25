@@ -50,12 +50,6 @@ function ArticulacaoLocal() {
                 que era, construir um movimento nacional, capaz de auxiliar mulheres negras na produção
                 de uma potente tese de mudança para a política brasileira. 
                 </p>
-                <p> Em nosso segundo ano de atuação, já contávamos com articuladoras nos cinco estados com 
-                a maior concentração de população negra do Brasil: Bahia, Pernambuco, Rio de Janeiro, Minas Gerais,
-                e São Paulo e começamos então a estruturar e programar esse grande desafio que era, construir
-                um movimento nacional, capaz de auxiliar mulheres negras na produção de uma potente tese de mudança
-                para a política brasileira.
-                </p>
                 <p> Então, em 2019, voltamos nossos esforços para que mais mulheres negras pudessem se somar a nós,
                 entendendo, também, que o movimento Mulheres Negras Decidem deveria funcionar como um impulsionador
                 dessas mudanças que já estavam sendo produzidas por mulheres negras em todo o país e que, já estavam 

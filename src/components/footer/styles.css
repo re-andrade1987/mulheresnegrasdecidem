@@ -45,6 +45,9 @@
 .box-main-apoio{
     display: flex;
 }
+.box-main-apoio p{
+    margin-left: 20px;
+}
 .img-baobar{
     width: 50px;
     margin-left: 20px;
