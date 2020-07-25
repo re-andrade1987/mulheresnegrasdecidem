@@ -1,81 +1,86 @@
 .footer{
     background-color: #331818;
-    height: 270px;
+    height: 250px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
     color: #ffc310;
     font-weight: bold;
     font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
 .icon-redes-footer{
     display: flex;
-    margin-left: 40px;
-}
-.icon-redes p{
-    margin-top: 10px;
-}
-.box-icon-redes{
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border-bottom: solid 2px #ffc310;
+    margin-right: 250px;
 }
 .box-icon-redes img{
     width: 35px;
     height: 35px;
 }
-.icon-rede-git{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.icon-site-baoba {
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    color: aliceblue;
-    flex-direction: column;
-    margin-left: 700px;
-    margin-top: -105px;
-}
-.icon-site-baoba img {
-    width: 60px;
-    height: 80px
-}
-.logo-footer{
-    width: 120px;
-}
-.img-footer{
+
+.box.redes.footer{
     width: 30px;
     height: 30px;
-    margin: 10px 10px 10px 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.box-redes-footer img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
 .img-gitHub{
     width: 30px;
     height: 30px;
+    margin-left: 5px;
+    margin-top: -7px;
 }
+.box-main-apoio{
+    display: flex;
+}
+.img-baobar{
+    width: 50px;
+    margin-left: 10px;
+}
+.box-apoio{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 150px;
+}
+.icon-rede-git{
+    display: flex;
+}
+
 @media (max-width: 480px){
+    .box-redes-footer{
+        display: flex;
+    }
     .footer{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
     }
     .footer p {
         font-size: 10px;
     }
-    .icon-site-baoba{
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
+    .icon-redes-footer{
+        margin: 0;
     }
     .icon-site-baoba img {
         width: 30px;
         height: 40px;
     }
     .logo-footer{
-        width: 80px;
+        width: 90px;
+        height: 80px;
     }
     .img-footer{
         width: 20px !important; 
@@ -84,5 +89,15 @@
     .img-gitHub{
         width: 20px !important; 
         height: 20px !important;
+        margin-left: 5px;
+        margin-top: -7px;
+    }
+    .img-baobar {
+        width: 30px;
+        margin-left: 10px;
+    }
+    .box-main-apoio {
+        display: flex;
+        margin-left: 137px;
     }
 }

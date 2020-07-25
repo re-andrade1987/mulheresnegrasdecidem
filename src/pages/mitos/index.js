@@ -27,11 +27,13 @@ function Mitos() {
             </div>
             <MainTitle value="Mitos" />
             <div className='main-text-mito'>
-                <p>Os mitos aqui reunidos foram pensados a partir da troca que tivemos em 2018 com candidaturas de
-                 mulheres negras, nossos trânsitos  por espaços de debate político, e acúmulos sobre a temática que
-                 já tínhamos previamente.Compõe nossa primeira experiência com dados e narrativas e foi idealizado
-                 como ferramenta para superarmos parte das barreiras que impedem mais mulheres negras de atuarem na
-                 política institucional.
+                <p>A partir das trocas que tivemos em 2018 com as candidaturas de mulheres negras, dos nossos trânsitos
+                 nos espaços de debate político e dos acúmulos prévios sobre a temática, produzimos uma série de cards 
+                 sobre os mitos que são disseminados à relação entre mulheres negras e política
+                </p>
+                <p>A série compõe nossa primeira experiência com dados e narrativas e foi idealizado como ferramenta
+                para superarmos parte das barreiras que impedem mais mulheres negras de atuarem na política institucional.
+
                 </p>
             </div>
             <Subtitle value="Clique nos mitos e entenda mais:" />

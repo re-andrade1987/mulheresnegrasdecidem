@@ -20,6 +20,11 @@
 
 .box-texts-atividades{
     max-width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
 }
 
 @media (max-width: 796px){

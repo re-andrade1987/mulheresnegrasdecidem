@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 import MainTitle from '../../components/layoutPieces/mainTitle';
-import rioOn from '../../assets/rio-on.png';
 import globo from '../../assets/globo.png';
 import correio from '../../assets/correioBraziliense.png';
 import hypeness from '../../assets/hypeness.png';
@@ -67,7 +66,7 @@ function Noticias() {
                     <div className="box-textos-noticias">
                         <p>Estudo encontra 100 iniciativas para aproximar política da população mais pobre</p>
                         <strong>28/08/18 O Globo</strong>
-                        <a className='link-noticias' target='blank' href='https://pretapretopretinhos.blogfolha.uol.com.br/2020/07/13/instituto-anielle-franco-anuncia-pane-para-fortalecer-candidaturas-negras-nas-eleicoes-municipais-deste-ano//'>Leia mais</a>
+                        <a className='link-noticias' target='blank' href='https://oglobo.globo.com/brasil/estudo-encontra-100-iniciativas-para-aproximar-politica-da-populacao-mais-pobre-23018124'>Leia mais</a>
 
                     </div>
                 </div>
@@ -87,7 +86,7 @@ function Noticias() {
                     <div className="box-textos-noticias">
                         <p>Subrepresentada, bancada de mulheres negras crescerá 30% em 2019</p>
                         <strong>20/10/18 Correio Braziliense</strong>
-                        <a className='link-noticias' target='blank' href='https://www.correiobraziliense.com.br/app/noticia/politica/2018/10/20/interna_politica'>Leia mais</a>
+                        <a className='link-noticias' target='blank' href='https://www.correiobraziliense.com.br/app/noticia/politica/2018/10/20/interna_politica,713916/subrepresentada-bancada-de-mulheres-negras-crescera-30-em-2019.shtml'>Leia mais</a>
                     </div>
                 </div>
 
@@ -96,7 +95,7 @@ function Noticias() {
                     <div className="box-textos-noticias">
                         <p>Seis iniciativas que estão ajudando a eleger mais mulheres em 2018</p>
                         <strong>1/9/2018 Hypeness</strong>
-                        <a className='link-noticias' target='blank' href='https://pretapretopretinhos.blogfolha.uol.com.br/2020/07/13/instituto-anielle-franco-anuncia-pane-para-fortalecer-candidaturas-negras-nas-eleicoes-municipais-deste-ano//'>Leia mais</a>
+                        <a className='link-noticias' target='blank' href='https://www.hypeness.com.br/2018/09/seis-iniciativas-que-estao-ajudando-a-eleger-mais-mulheres-em-2018/'>Leia mais</a>
                     </div>
                 </div>
             </div>
