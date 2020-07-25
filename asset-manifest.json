@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7942d25.chunk.css",
+    "main.css": "/static/css/main.4f2636b3.chunk.css",
     "main.js": "/static/js/main.a607841a.chunk.js",
     "main.js.map": "/static/js/main.a607841a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95f26041.js",
@@ -9,10 +9,10 @@
     "static/js/2.b6ddac3c.chunk.js": "/static/js/2.b6ddac3c.chunk.js",
     "static/js/2.b6ddac3c.chunk.js.map": "/static/js/2.b6ddac3c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.627f9955b6a38a48d20457f28d420b9d.js": "/precache-manifest.627f9955b6a38a48d20457f28d420b9d.js",
+    "precache-manifest.a01b0a35d0aa75c9512ccae2cbcf7e20.js": "/precache-manifest.a01b0a35d0aa75c9512ccae2cbcf7e20.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4819d237.chunk.css.map": "/static/css/2.4819d237.chunk.css.map",
-    "static/css/main.a7942d25.chunk.css.map": "/static/css/main.a7942d25.chunk.css.map",
+    "static/css/main.4f2636b3.chunk.css.map": "/static/css/main.4f2636b3.chunk.css.map",
     "static/js/2.b6ddac3c.chunk.js.LICENSE.txt": "/static/js/2.b6ddac3c.chunk.js.LICENSE.txt",
     "static/media/artigo1.png": "/static/media/artigo1.9c220f80.png",
     "static/media/artigo2.png": "/static/media/artigo2.426ae1b8.png",
@@ -62,7 +62,7 @@
     "static/js/runtime-main.95f26041.js",
     "static/css/2.4819d237.chunk.css",
     "static/js/2.b6ddac3c.chunk.js",
-    "static/css/main.a7942d25.chunk.css",
+    "static/css/main.4f2636b3.chunk.css",
     "static/js/main.a607841a.chunk.js"
   ]
 }
