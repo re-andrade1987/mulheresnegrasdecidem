@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4d6eb40.chunk.css",
-    "main.js": "/static/js/main.3b379d13.chunk.js",
-    "main.js.map": "/static/js/main.3b379d13.chunk.js.map",
+    "main.css": "/static/css/main.2e619e3e.chunk.css",
+    "main.js": "/static/js/main.17d66a99.chunk.js",
+    "main.js.map": "/static/js/main.17d66a99.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95f26041.js",
     "runtime-main.js.map": "/static/js/runtime-main.95f26041.js.map",
     "static/css/2.4819d237.chunk.css": "/static/css/2.4819d237.chunk.css",
     "static/js/2.c4037453.chunk.js": "/static/js/2.c4037453.chunk.js",
     "static/js/2.c4037453.chunk.js.map": "/static/js/2.c4037453.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b26f0a805c09761ba8c0911d388ee89a.js": "/precache-manifest.b26f0a805c09761ba8c0911d388ee89a.js",
+    "precache-manifest.3b24723c5e2218b2777605317a9e5cde.js": "/precache-manifest.3b24723c5e2218b2777605317a9e5cde.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4819d237.chunk.css.map": "/static/css/2.4819d237.chunk.css.map",
-    "static/css/main.c4d6eb40.chunk.css.map": "/static/css/main.c4d6eb40.chunk.css.map",
+    "static/css/main.2e619e3e.chunk.css.map": "/static/css/main.2e619e3e.chunk.css.map",
     "static/js/2.c4037453.chunk.js.LICENSE.txt": "/static/js/2.c4037453.chunk.js.LICENSE.txt",
     "static/media/artigo1.png": "/static/media/artigo1.9c220f80.png",
     "static/media/artigo2.png": "/static/media/artigo2.426ae1b8.png",
@@ -60,7 +60,7 @@
     "static/js/runtime-main.95f26041.js",
     "static/css/2.4819d237.chunk.css",
     "static/js/2.c4037453.chunk.js",
-    "static/css/main.c4d6eb40.chunk.css",
-    "static/js/main.3b379d13.chunk.js"
+    "static/css/main.2e619e3e.chunk.css",
+    "static/js/main.17d66a99.chunk.js"
   ]
 }
