@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e62925ed.chunk.css",
-    "main.js": "/static/js/main.cf86299d.chunk.js",
-    "main.js.map": "/static/js/main.cf86299d.chunk.js.map",
+    "main.css": "/static/css/main.a7942d25.chunk.css",
+    "main.js": "/static/js/main.a607841a.chunk.js",
+    "main.js.map": "/static/js/main.a607841a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95f26041.js",
     "runtime-main.js.map": "/static/js/runtime-main.95f26041.js.map",
     "static/css/2.4819d237.chunk.css": "/static/css/2.4819d237.chunk.css",
-    "static/js/2.8861ab08.chunk.js": "/static/js/2.8861ab08.chunk.js",
-    "static/js/2.8861ab08.chunk.js.map": "/static/js/2.8861ab08.chunk.js.map",
+    "static/js/2.b6ddac3c.chunk.js": "/static/js/2.b6ddac3c.chunk.js",
+    "static/js/2.b6ddac3c.chunk.js.map": "/static/js/2.b6ddac3c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4d5971d331fa2881207531c3b453f9a0.js": "/precache-manifest.4d5971d331fa2881207531c3b453f9a0.js",
+    "precache-manifest.627f9955b6a38a48d20457f28d420b9d.js": "/precache-manifest.627f9955b6a38a48d20457f28d420b9d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4819d237.chunk.css.map": "/static/css/2.4819d237.chunk.css.map",
-    "static/css/main.e62925ed.chunk.css.map": "/static/css/main.e62925ed.chunk.css.map",
-    "static/js/2.8861ab08.chunk.js.LICENSE.txt": "/static/js/2.8861ab08.chunk.js.LICENSE.txt",
+    "static/css/main.a7942d25.chunk.css.map": "/static/css/main.a7942d25.chunk.css.map",
+    "static/js/2.b6ddac3c.chunk.js.LICENSE.txt": "/static/js/2.b6ddac3c.chunk.js.LICENSE.txt",
     "static/media/artigo1.png": "/static/media/artigo1.9c220f80.png",
     "static/media/artigo2.png": "/static/media/artigo2.426ae1b8.png",
     "static/media/artigo3.png": "/static/media/artigo3.58817999.png",
     "static/media/banner-mitos.png": "/static/media/banner-mitos.1559cc69.png",
     "static/media/banner.png": "/static/media/banner.7bcda108.png",
+    "static/media/bannerResponsivo.png": "/static/media/bannerResponsivo.d6133a2c.png",
     "static/media/banner_atividades.png": "/static/media/banner_atividades.dbf679d8.png",
     "static/media/bannerpodcast1.png": "/static/media/bannerpodcast1.2bf8d263.png",
     "static/media/cartela_mito_1.png": "/static/media/cartela_mito_1.5e7137a7.png",
@@ -44,7 +45,7 @@
     "static/media/infografico.png": "/static/media/infografico.e7f1c4cd.png",
     "static/media/logo.png": "/static/media/logo.6b017b9c.png",
     "static/media/mapa_mnd.png": "/static/media/mapa_mnd.9b52fe06.png",
-    "static/media/mito.png": "/static/media/mito.7e6c1fed.png",
+    "static/media/mito.jpeg": "/static/media/mito.0c1741ce.jpeg",
     "static/media/mito1-branco.png": "/static/media/mito1-branco.4433053c.png",
     "static/media/mito2-branco.png": "/static/media/mito2-branco.b2c3cdab.png",
     "static/media/mito3-branco.png": "/static/media/mito3-branco.136121ba.png",
@@ -53,7 +54,6 @@
     "static/media/mito6-branco.png": "/static/media/mito6-branco.0dbc82ff.png",
     "static/media/mito7-branco.png": "/static/media/mito7-branco.ff6e6aaa.png",
     "static/media/paraondevamos.png": "/static/media/paraondevamos.67793b24.png",
-    "static/media/paraondevamosResponsivo.png": "/static/media/paraondevamosResponsivo.d6133a2c.png",
     "static/media/rio-on.png": "/static/media/rio-on.37980fba.png",
     "static/media/senac.png": "/static/media/senac.cac21cdc.png",
     "static/media/universa.png": "/static/media/universa.6f01c4b5.png"
@@ -61,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.95f26041.js",
     "static/css/2.4819d237.chunk.css",
-    "static/js/2.8861ab08.chunk.js",
-    "static/css/main.e62925ed.chunk.css",
-    "static/js/main.cf86299d.chunk.js"
+    "static/js/2.b6ddac3c.chunk.js",
+    "static/css/main.a7942d25.chunk.css",
+    "static/js/main.a607841a.chunk.js"
   ]
 }
