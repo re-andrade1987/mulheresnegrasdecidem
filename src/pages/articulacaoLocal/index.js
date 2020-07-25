@@ -18,8 +18,7 @@ function ArticulacaoLocal() {
                 <p>Atualmente, o MND está presente em 16 estados, com preponderância na região Sudeste pelo histórico
                 de fundação das ações, mas em expansão para os demais estados brasileiros. Estamos articuladas
                 em AL, AM, BA, DF, ES, MA, MG, PB, PE, PI, PR, RO, RJ, SC, SP e TO. Se você é uma mulher negra
-                e gostaria de atuar no movimento, entre em contato pelo Instagram ou pelo nosso e-mail
-                <p><strong>mulheresnegrasdecidem@gmail.com</strong></p>
+                e gostaria de atuar no movimento, entre em contato pelo Instagram ou pelo nosso e-mail: <strong>mulheresnegrasdecidem@gmail.com</strong>
                 </p>
                 <img className="img-mapa" src={mapa_mnd} alt="mapa" />
                 <p> O Movimento Mulheres Negras Decidem, surge, a

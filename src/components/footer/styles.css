@@ -15,26 +15,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 250px;
+    margin-right: 330px;
 }
 .box-icon-redes img{
     width: 35px;
     height: 35px;
 }
 
-.box.redes.footer{
-    width: 30px;
-    height: 30px;
+.box-redes-footer{
+    border-bottom: solid 2px #ffc310 ;
+    width: 100%;
     display: flex;
-    text-align: center;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .box-redes-footer img{
     width: 30px;
     height: 30px;
     margin: 10px;
 }
+
 .img-gitHub{
     width: 30px;
     height: 30px;
@@ -46,7 +47,7 @@
 }
 .img-baobar{
     width: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .box-apoio{
     color: aliceblue;
@@ -68,9 +69,6 @@
         align-items: center;
         justify-content:center ;
     }
-    .footer p {
-        font-size: 10px;
-    }
     .icon-redes-footer{
         margin: 0;
     }
@@ -79,7 +77,7 @@
         height: 40px;
     }
     .logo-footer{
-        width: 90px;
+        width: 114px;
         height: 80px;
     }
     .img-footer{

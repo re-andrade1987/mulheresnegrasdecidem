@@ -14,22 +14,22 @@ function Sobre() {
             <div className='second-box-banner'>
                 <div className='efeito-mark'>
                     {/*<marquee behavior="up">*/}
-                    <p>#MulheresNegrasDecidem</p>
+                    {/*<p>#MulheresNegrasDecidem</p>*/}
                     {/*</marquee>*/}
                 </div>
                 <div className='efeito-mark'>
                     {/*<marquee behavior="up">*/}
-                    <p>#MndEleições2020</p>
+                    {/*<p>#MndEleições2020</p>*/}
                     {/*</marquee>*/}
                 </div>
                 <div className='box-title-banner'>
                     <SubTitle value="Quem é o Movimento Mulheres Negras Decidem?" />
-                    <p>O movimento Mulheres Negras Decidem (MND) busca fortalecer a democracia brasileira usando como estratégia a superação da sub representação de mulheres negras nas instâncias de poder.</p>
+                    <p>O movimento Mulheres Negras Decidem (MND) busca fortalecer a democracia brasileira usando como estratégia a superação da sub-representação de mulheres negras nas instâncias de poder.</p>
                     <p>Nossa missão é qualificar e promover a agenda política liderada por mulheres negras na política institucional. Acreditamos que a disputa de narrativa é premente e precisa incluir as mulheres negras já que nós somos mais de 28% da população, ou seja, somos o maior grupo demográfico do país.</p>
                     <p>Queremos visibilizar e impulsionar a atuação de mulheres negras, sobretudo diante da crise, para que tenhamos representatividade plena do nosso pensamento político.</p>
                     <p>As mulheres negras candidatas nos pleitos eleitorais são um dos nossos focos de atuação. Muitas das nossas atividades e engajamentos possuem o objetivo de acessar o universo dessas mulheres e potencializar suas incidências na sociedade. Articulamos e coordenamos atrizes que visam incidir no debate da política institucional.</p>
                     <p>Atuamos por meio de formação política, reposicionamento de temas na agenda pública e pesquisas centradas em dados.</p>
-                    <p>Acreditamos que nós, mulheres negras, oferecemos um repertório político estrutural, criativo, singular e fundamental no fortalecimento de uma democracia tão fragilizada como a brasileira. </p>
+                    <p>Acreditamos que nós, mulheres negras, oferecemos um repertório político estrutural, criativo, singular e fundamental no fortalecimento de uma democracia tão fragilizada como a brasileira.  </p>
                     <p>Entendemos que estamos vivendo uma democracia vulnerável, pois ela não atende todos os grupos sociais que a compõem. Com racismo e machismo, não há democracia. </p>
 
                     <SubTitle value="Por que somos?" />
@@ -59,22 +59,21 @@ function Sobre() {
 
                     </p>
 
-                    <p>Em 2018, fomos selecionadas para o programa Minas de Dados realizado pela Transparência Brasil, Olabi e Data_Labe, com apoio da OEA, para uma imersão de 4 semanas em dados abertos, narrativas e tecnologia para governos abertos. Nessa formação, concebemos o que o MND poderia ser e agir diante de um cenário árduo  de sub representação de mulheres negras na política institucional.
+                    <p>Em 2018,  elas foram selecionadas para o programa Minas de Dados realizado nos meses de fevereiro e março pela Transparência Brasil, Olabi e Data_Labe, com apoio da OEA.  O programa foi uma imersão de quatro  semanas em dados abertos, narrativas e tecnologia para governos abertos. Nesta formação,  foi concebido o que o MND poderia ser e como poderia agir diante de um cenário árduo de sub-representação de mulheres negras na política institucional. 
                     </p>
-                    <p>Prosseguimos em  2018 com ciclos de formação política, nos quais discutimos regras do jogo eleitoral, reconstituímos a participação de diversas mulheres negras na política bem como os sistemas políticos que serviram de pano de fundo para essas candidaturas. Em julho, lançamos nossa plataforma, onde trouxemos um  diagnóstico da presença de mulheres negras na política. Os resultados desta pesquisa você pode conferir na seção ‘Esteja Preparada-> Mitos’’.
+                    <p>Em março de 2018, ocorreu o assassinato de Marielle Franco, vereadora na cidade do Rio de Janeiro. Para nós, ela é um dos tantos exemplos do quanto mulheres negras são potência e carregam consigo maneiras efetivas de fazer política. A infeliz morte de Marielle se torna a materialização do porquê tornar a política um ambiente menos hostil para mulheres negras é tão importante. De fato, Marielle se tornou semente. </p>
+                    <p>Prosseguimos em 2018 com ciclos de formação política, nos quais discutimos regras do jogo eleitoral, reconstituímos a participação de diversas mulheres negras na política, bem como os sistemas políticos que serviram de pano de fundo para essas candidaturas. Em julho, lançamos nossa plataforma, onde trouxemos um  diagnóstico da presença de mulheres negras na política. Os resultados desta pesquisa você pode conferir na seção ‘Recursos MND -> Mitos’.
 
                     </p>
-                    <p>Em 2019 não houve eleições, mas não paramos! Idealizamos o Fórum Mulheres Negras Decidem onde, periodicamente, nos reunimos para debater os principais assuntos em curso na política brasileira sob um olhar antirracista e feminista. Além disso, lançamos novo episódio do nosso podcast, discutimos bibliografias importantes e participamos de inúmeros eventos.
 
+                    <p>Em 2019, não houve eleições, mas não paramos! Idealizamos o Fórum Mulheres Negras Decidem onde, periodicamente, nos reunimos para debater os principais assuntos em curso na política brasileira sob um olhar antirracista e feminista. Além disso, lançamos novo episódio do nosso podcast, discutimos bibliografias importantes e participamos de inúmeros eventos.
                     </p>
-                    <p>Atualmente, uma pandemia global atinge nossas vidas, mas entendemos que é necessário seguir atuando a pleno vapor. Inspiradas pela intensa mobilização de mulheres negras a fim de mitigar os impactos negativos da pandemia em suas comunidades, concebemos a pesquisa Para Onde Vamos. Nela, acessamos 245 mulheres negras de todo o território brasileiro e apresentamos um panorama do ativismo de mulheres negras no Brasil. Mais uma vez, comprovamos a riqueza do nosso pensamento político e o quanto as mulheres negras dão o tom de soluções estruturais para as crises. A pesquisa Para Onde Vamos está disponível na aba ‘Relatório’.</p>
-                    <p> comunidades, concebemos a pesquisa Para Onde Vamos. Nela, acessamos 245 mulheres negras de todo o território brasileiro e apresentamos um panorama do ativismo de mulheres negras no Brasil. Mais uma vez, comprovamos a riqueza do nosso pensamento político e o quanto as mulheres negras dão o tom de soluções estruturais para as crises. A pesquisa Para Onde Vamos está disponível na aba ‘Relatório’.
-
+                    <p>Atualmente, uma pandemia global atinge nossas vidas, mas entendemos que é necessário seguir atuando a pleno vapor. Inspiradas pela intensa mobilização de mulheres negras a fim de mitigar os impactos negativos da pandemia em suas comunidades, realizamos  a pesquisa Para Onde Vamos, em parceria com o Instituto Marielle Franco. Nela, acessamos 245 mulheres negras de todo o território brasileiro e apresentamos um panorama do ativismo de mulheres negras no Brasil. Mais uma vez, comprovamos a riqueza do nosso pensamento político e o quanto as mulheres negras dão o tom de soluções estruturais para as crises. A pesquisa Para Onde Vamos está disponível no menu ‘Relatórios’.
                     </p>
-                    <p> Além do relatório, lançamos novos episódios do podcast Mulheres Negras Decidem, participamos de lives e demais encontros online e demos início ao nosso ciclo de formação 2020, desta vez em formato virtual.
+                    <p> Além do relatório, lançamos novos episódios do podcast Mulheres Negras Decidem, participamos de lives e demais encontros online e demos início ao nosso ciclo de formação política 2020, desta vez em formato virtual.
                     </p>
-                   <p> No segundo semestre de 2020, vamos lançar um livro onde reuniremos boa parte dos projetos de lei apresentados por parlamentares negras ao longo dos anos e também artigos inéditos. Nossas propostas e recomendações para as eleições de 2020 virão sistematizadas neste livro.                    </p>
-
+                    <p>No segundo semestre de 2020, vamos lançar um livro onde reuniremos boa parte dos projetos de lei apresentados por parlamentares negras ao longo dos anos e também artigos inéditos. Nossas propostas e recomendações para as eleições de 2020 virão sistematizadas neste livro.
+                    </p>
                     <ReactPlayer
                         url="https://www.youtube.com/watch?v=l5kMEzwOGVY&feature=youtu.be"
                         className='react-player'

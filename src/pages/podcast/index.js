@@ -18,7 +18,7 @@ function Podcast() {
                 <div className='box-texts-podcast'>
                     <h2>Mulheres Negras Decidem Para Onde Vamos</h2>
                     {/*<Link to="/Podcast4">Leia Mais...</Link>*/}
-                    <a target='blank'className='link-podcast' href='https://soundcloud.com/mulheresnegrasdecidem/mulheres-negras-decidem-ep-1'>Ouça agora</a>
+                    <a target='blank'className='link-podcast' href='https://soundcloud.com/mulheresnegrasdecidem/mnd2020-ep-02-mulheres-negras-decidem-para-onde-vamos'>Ouça agora</a>
                 </div>
             </div>
             <div className='box-conteudo'>
