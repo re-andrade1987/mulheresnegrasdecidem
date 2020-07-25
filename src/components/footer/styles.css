@@ -14,7 +14,7 @@
 
 .icon-redes-footer{
     display: flex;
-    justify-content: space-around;
+    margin-left: 30px;
 }
 .icon-redes p{
     margin-top: 10px;
@@ -44,7 +44,7 @@
 }
 .icon-site-baoba img {
     width: 60px;
-    height: 60px
+    height: 80px
 }
 .logo-footer{
     width: 120px;

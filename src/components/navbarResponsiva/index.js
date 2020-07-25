@@ -25,7 +25,7 @@ class NavbarHeader extends Component {
             </NavDropdown>
             <NavLink><Link to="/podcast"><li>Podcast</li></Link></NavLink>
             <NavDropdown title="Onde Estamos" id="basic-nav-dropdown">
-              <NavDropdown.Item><Link to="/noticias"><li className="item-lista">Nóticias</li></Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/noticias"><li className="item-lista">Notícias</li></Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/atividadesPresenciais"><li className="item-lista">Articulação local</li></Link></NavDropdown.Item>
             </NavDropdown>
             <div className="icon-redes-nav">

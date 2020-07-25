@@ -15,7 +15,7 @@ class Footer extends Component {
                 <img className='logo-footer' src={logo} alt="logo" />
                 <div className="box-icon-redes">
                     <div className="icon-redes-footer">
-                        <a target='blank' href='https://twitter.com/MNdecidem'></a><img className='img-footer' src={twitterAmarelo} alt="logo-twitter" />
+                        <a target='blank' href='https://twitter.com/MNdecidem'><img className='img-footer' src={twitterAmarelo} alt="logo-twitter" /></a>
                         <a target='blank' href='https://www.facebook.com/mulheresnegrasdecidem'><img className='img-footer' src={facebookAmarelo} alt="logo-facebook" /></a>
                         <a target='blank' href='https://www.instagram.com/mulheresnegrasdecidem/'><img className='img-footer' src={instagramAmarelo} alt="logo-facebook" /></a>
                     </div>

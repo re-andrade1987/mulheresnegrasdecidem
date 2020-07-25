@@ -7,7 +7,7 @@ import Mito4 from '../../assets/mito4-branco.png';
 import Mito5 from '../../assets/mito5-branco.png';
 import Mito6 from '../../assets/mito6-branco.png';
 import Mito7 from '../../assets/mito7-branco.png';
-import Mito8 from '../../assets/mito.png';
+import Mito8 from '../../assets/mito.jpeg';
 import bannerMito from '../../assets/banner-mitos.png';
 import grafico from '../../assets/grafico_mulheres.png';
 import infoGrafico from '../../assets/infografico.png';

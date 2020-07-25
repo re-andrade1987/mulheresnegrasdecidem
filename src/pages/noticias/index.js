@@ -15,7 +15,7 @@ import universa from '../../assets/universa.png';
 function Noticias() {
     return (
         <section className="box-contact">
-            <MainTitle value="Nóticias" />
+            <MainTitle value="Notícias" />
             <div className="box-news">
                 <div className="box-img-banner">
                     <img src={folhaSãoPaulo} alt="rio-on" />

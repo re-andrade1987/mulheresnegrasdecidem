@@ -1,3 +1,4 @@
+@media (min-width: 480px) and (max-width: 1900px){
 .section-relatorios{
     font-family: Montserrat;
     font-style: normal;
@@ -21,20 +22,29 @@
     font-size: 18px;
     font-weight: bold;
 }
+.img-celular{
+    display: none;
+}
+}
 
 @media (max-width: 480px){
     .box-contact-publicacao {
         font-size: 15px;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
     .box-contact-publicacao h3{
         font-size: 20px;
-        
     }
     .box-contact-publicacao p{
-        font-size: 10px;
-        
+        font-size: 10px;  
+    }
+    .img-celular{
+        width: 100%;;
+    }
+    .img-desktop{
+        display: none;
     }
    
 }

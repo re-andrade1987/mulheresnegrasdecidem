@@ -46,11 +46,11 @@
 @media (max-width: 480px){
     .box-news{
        display: flex;
-       padding: 60px;
       
     }
     .box-img-banner p{
         font-size: 13px;
+        margin-left: 0;
     }
     .box-img-banner{
         display: flex;
@@ -59,7 +59,13 @@
     .box-img-banner img{
         width: 150px;
         height: 150px;
-
+        margin-left: 45px;
+    }
+    .link-noticias{
+        margin-left: 0;
+    }
+    .box-textos-noticias strong{
+        margin-left: 0;
     }
    
 }
