@@ -80,7 +80,7 @@
         height: 100%;
     }
     .textos{
-        width: 350px;
+        width: 100%;
     }
     .box-mitos{
         display: flex;
@@ -93,9 +93,8 @@
         margin-top: 30px;
         flex-direction: column;
     }
-    .box-mitos img{
-        width: 170px;
-        height: 170px;
+    .box-mitos-textos img{
+        width: 300px;
     }
     .box-mitos-banner img{
         height: 150px ;
@@ -115,6 +114,10 @@
     }
     .box-dados p{
         font-size: 13px;
+        padding: 10px;
+    }
+    .textos h3{
+        margin: 7px;
     }
 
 }
