@@ -1,3 +1,14 @@
+.section-relatorios{
+    opacity: 0;
+    transform: translate(-20px);
+    animation: section-relatorios 0.3s forwards;
+}
+@keyframes section-relatorios{
+    to{
+        opacity: 1;
+        transform: initial;
+    }
+}
 @media (min-width: 480px) and (max-width: 1900px){
 .section-relatorios{
     font-family: Montserrat;

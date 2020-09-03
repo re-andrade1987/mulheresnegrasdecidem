@@ -12,16 +12,6 @@ function Sobre() {
                 <img src={banner} alt="banner-mulheres" />
             </div>
             <div className='second-box-banner'>
-                <div className='efeito-mark'>
-                    {/*<marquee behavior="up">*/}
-                    {/*<p>#MulheresNegrasDecidem</p>*/}
-                    {/*</marquee>*/}
-                </div>
-                <div className='efeito-mark'>
-                    {/*<marquee behavior="up">*/}
-                    {/*<p>#MndEleições2020</p>*/}
-                    {/*</marquee>*/}
-                </div>
                 <div className='box-title-banner'>
                     <SubTitle value="Quem é o Movimento Mulheres Negras Decidem?" />
                     <p>O movimento Mulheres Negras Decidem (MND) busca fortalecer a democracia brasileira usando como estratégia a superação da sub-representação de mulheres negras nas instâncias de poder.</p>

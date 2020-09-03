@@ -9,6 +9,8 @@ import folhaSãoPaulo from '../../assets/folhaSãoPaulo.png';
 import senac from '../../assets/senac.png';
 import generoNumero from '../../assets/generoNumero.png';
 import universa from '../../assets/universa.png';
+import azmina from '../../assets/azmina.png';
+
 
 
 function Noticias() {
@@ -92,6 +94,15 @@ function Noticias() {
 
                 <div className="box-img-banner">
                     <img src={hypeness} alt="rio-on" />
+                    <div className="box-textos-noticias">
+                        <p>Seis iniciativas que estão ajudando a eleger mais mulheres em 2018</p>
+                        <strong>1/9/2018 Hypeness</strong>
+                        <a className='link-noticias' target='blank' href='https://www.hypeness.com.br/2018/09/seis-iniciativas-que-estao-ajudando-a-eleger-mais-mulheres-em-2018/'>Leia mais</a>
+                    </div>
+                </div>
+
+                <div className="box-img-banner">
+                    <img src={azmina} alt="rio-on" />
                     <div className="box-textos-noticias">
                         <p>Seis iniciativas que estão ajudando a eleger mais mulheres em 2018</p>
                         <strong>1/9/2018 Hypeness</strong>

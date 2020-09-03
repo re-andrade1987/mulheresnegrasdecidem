@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png';
 import twitter from '../../assets/twitter.png';
 import facebook from '../../assets/facebook.png';
 import instagram from '../../assets/instagram.png';
+
 import './styles.css';
 import { Nav, Navbar, NavDropdown, NavLink } from "react-bootstrap";
 

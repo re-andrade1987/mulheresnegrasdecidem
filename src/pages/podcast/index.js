@@ -5,7 +5,6 @@ import ImgP3 from '../../assets/img3Pd.png';
 import ImgP4 from '../../assets/img4Pd.png';
 
 import MainTitle from '../../components/layoutPieces/mainTitle';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
