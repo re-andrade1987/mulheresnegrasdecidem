@@ -35,6 +35,7 @@
 .box-title-banner{
     margin: 15px;
 }
+
 @media (max-width: 480px){
     
     .first-box-banner img{

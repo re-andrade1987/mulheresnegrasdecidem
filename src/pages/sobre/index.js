@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 import banner from '../../assets/banner.png';
 import ReactPlayer from 'react-player';
 import SubTitle from '../../components/layoutPieces/subTitle';
+import Modal from 'react-modal';
+
 
 
 function Sobre() {
+    const [modalIsopen, seModalIsopen] = useState(false)
+
     return (
         <section className='section-sobre'>
             <div className="first-box-banner">
                 <img src={banner} alt="banner-mulheres" />
             </div>
             <div className='second-box-banner'>
+                <button onClick={() => seModalIsopen(true)}>Clique aqui</button>
+                <div className="modal">
+                    <Modal isOpen={modalIsopen}>
+                        <h1>Modal title</h1>
+                        <button onClick={() => seModalIsopen(false)}>Clique aqui</button>
+                    </Modal>
+                </div>
                 <div className='box-title-banner'>
                     <SubTitle value="Quem é o Movimento Mulheres Negras Decidem?" />
                     <p>O movimento Mulheres Negras Decidem (MND) busca fortalecer a democracia brasileira usando como estratégia a superação da sub-representação de mulheres negras nas instâncias de poder.</p>
@@ -49,7 +60,7 @@ function Sobre() {
 
                     </p>
 
-                    <p>Em 2018,  elas foram selecionadas para o programa Minas de Dados realizado nos meses de fevereiro e março pela Transparência Brasil, Olabi e Data_Labe, com apoio da OEA.  O programa foi uma imersão de quatro  semanas em dados abertos, narrativas e tecnologia para governos abertos. Nesta formação,  foi concebido o que o MND poderia ser e como poderia agir diante de um cenário árduo de sub-representação de mulheres negras na política institucional. 
+                    <p>Em 2018,  elas foram selecionadas para o programa Minas de Dados realizado nos meses de fevereiro e março pela Transparência Brasil, Olabi e Data_Labe, com apoio da OEA.  O programa foi uma imersão de quatro  semanas em dados abertos, narrativas e tecnologia para governos abertos. Nesta formação,  foi concebido o que o MND poderia ser e como poderia agir diante de um cenário árduo de sub-representação de mulheres negras na política institucional.
                     </p>
                     <p>Em março de 2018, ocorreu o assassinato de Marielle Franco, vereadora na cidade do Rio de Janeiro. Para nós, ela é um dos tantos exemplos do quanto mulheres negras são potência e carregam consigo maneiras efetivas de fazer política. A infeliz morte de Marielle se torna a materialização do porquê tornar a política um ambiente menos hostil para mulheres negras é tão importante. De fato, Marielle se tornou semente. </p>
                     <p>Prosseguimos em 2018 com ciclos de formação política, nos quais discutimos regras do jogo eleitoral, reconstituímos a participação de diversas mulheres negras na política, bem como os sistemas políticos que serviram de pano de fundo para essas candidaturas. Em julho, lançamos nossa plataforma, onde trouxemos um  diagnóstico da presença de mulheres negras na política. Os resultados desta pesquisa você pode conferir na seção ‘Recursos MND -> Mitos’.
