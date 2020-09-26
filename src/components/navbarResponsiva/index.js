@@ -20,7 +20,7 @@ class NavbarHeader extends Component {
             <NavLink><Link to="/"><li>Sobre</li></Link></NavLink>
             <NavLink><Link to="/relatorio"><li>Relatórios</li></Link></NavLink>
             <NavDropdown title="Recursos Mnd" id="basic-nav-dropdown">
-              {/*<NavDropdown.Item><Link to="/estejaPreparada"><li className="item-lista">Dados</li></Link></NavDropdown.Item>*/}              <NavDropdown.Item><Link to="/mitos" ><li className="item-lista">Mitos</li></Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to="/estejaPreparada"><li className="item-lista">Dados</li></Link></NavDropdown.Item>             <NavDropdown.Item><Link to="/mitos" ><li className="item-lista">Mitos</li></Link></NavDropdown.Item>
               <NavDropdown.Item><Link to="/artigos"><li className="item-lista">Artigos</li></Link></NavDropdown.Item>
             </NavDropdown>
             <NavLink><Link to="/podcast"><li>Podcast</li></Link></NavLink>
