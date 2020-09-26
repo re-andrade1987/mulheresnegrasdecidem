@@ -10,6 +10,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 @media (max-width: 480px){
     .section-mito1 img{
         width: 100%;

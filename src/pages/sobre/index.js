@@ -4,7 +4,10 @@ import banner from '../../assets/banner.png';
 import ReactPlayer from 'react-player';
 import SubTitle from '../../components/layoutPieces/subTitle';
 import Modal from 'react-modal';
-
+import mndIlustra2 from '../../assets/MND_ilustra_MND_2.png';
+import mndIlustraInt from '../../assets/Ilustra_MND_card_intelectuais.png';
+import mndIlustraV1 from '../../assets/MND_ilustra_MND_v1.png';
+import linhaDoTempo from '../../assets/Linha do tempo v2.png';
 
 
 function Sobre() {
@@ -16,65 +19,39 @@ function Sobre() {
                 <img src={banner} alt="banner-mulheres" />
             </div>
             <div className='second-box-banner'>
-                <button onClick={() => seModalIsopen(true)}>Clique aqui</button>
-                <div className="modal">
+               {/*<button onClick={() => seModalIsopen(true)}>Clique aqui</button>
+                <div>
                     <Modal isOpen={modalIsopen}>
                         <h1>Modal title</h1>
                         <button onClick={() => seModalIsopen(false)}>Clique aqui</button>
                     </Modal>
-                </div>
+                </div>*/}
                 <div className='box-title-banner'>
-                    <SubTitle value="Quem é o Movimento Mulheres Negras Decidem?" />
-                    <p>O movimento Mulheres Negras Decidem (MND) busca fortalecer a democracia brasileira usando como estratégia a superação da sub-representação de mulheres negras nas instâncias de poder.</p>
-                    <p>Nossa missão é qualificar e promover a agenda política liderada por mulheres negras na política institucional. Acreditamos que a disputa de narrativa é premente e precisa incluir as mulheres negras já que nós somos mais de 28% da população, ou seja, somos o maior grupo demográfico do país.</p>
-                    <p>Queremos visibilizar e impulsionar a atuação de mulheres negras, sobretudo diante da crise, para que tenhamos representatividade plena do nosso pensamento político.</p>
-                    <p>As mulheres negras candidatas nos pleitos eleitorais são um dos nossos focos de atuação. Muitas das nossas atividades e engajamentos possuem o objetivo de acessar o universo dessas mulheres e potencializar suas incidências na sociedade. Articulamos e coordenamos atrizes que visam incidir no debate da política institucional.</p>
-                    <p>Atuamos por meio de formação política, reposicionamento de temas na agenda pública e pesquisas centradas em dados.</p>
-                    <p>Acreditamos que nós, mulheres negras, oferecemos um repertório político estrutural, criativo, singular e fundamental no fortalecimento de uma democracia tão fragilizada como a brasileira.  </p>
-                    <p>Entendemos que estamos vivendo uma democracia vulnerável, pois ela não atende todos os grupos sociais que a compõem. Com racismo e machismo, não há democracia. </p>
+                    <SubTitle value="Quem é o MND?" />
+                    <p>Qualificamos e promovemos a agenda liderada por mulheres negras na política institucional, fortalecendo a democracia brasileira usando como estratégia a superação da falta representatividade de mulheres negras nas instâncias de poder.</p>
+                    <p>Acreditamos que a disputa de narrativa é fundamental e precisa incluir as mulheres negras urgente, já que nós somos o maior grupo demográfico do país, mais de 28% segundo a PNAD Contínua de 2019, e ocupamos menos de 2% de cadeiras no congresso nacional. Com racismo e machismo, não há democracia. Nós, mulheres negras, oferecemos um repertório político estrutural, criativo, singular e fundamental no fortalecimento de uma democracia tão fragilizada como a brasileira.</p>
+                    <img src={mndIlustra2} alt="logo" />
 
                     <SubTitle value="Por que somos?" />
 
-                    <p>Existimos a partir dos  desafios encontrados por mulheres negras que buscam participar de maneira mais efetiva dos processos eleitorais. Somos mais de 28% da população brasileira, porém somos apenas 2% no Congresso Nacional. A conta não fecha. </p>
-                    <p>São as mulheres negras que menos recebem investimentos em suas campanhas. Apenas 2,51% das despesas de todos os candidatos ao Legislativo estava relacionada a candidaturas de mulheres negras, em 2014. Como o financiamento em campanhas possui  grande correlação com maior elegibilidade, o percentual de mulheres negras eleitas no legislativo em 2014 foi de apenas 1,6%. A elegibilidade de homens brancos, também no pleito de 2014, chegou à 12,60%. Ou seja, um déficit expressivo que tem se repetido a cada eleição e se apresenta enquanto barreira para que as mulheres negras sejam eleitas, de fato.  </p>
-                    <p>Contudo, não buscamos falar apenas das ausências: carregamos conosco o longo e precioso legado de mulheres negras como Lélia Gonzalez, Luiza de Bairros, Benedita da Silva, Jurema Batista, Leci Brandão, Marielle Franco e muitas outras. Mulheres negras que, mesmo em meio aos obstáculos, reivindicaram suas presenças no espaço público e nos deixaram um histórico de estratégias políticas sofisticadas e de muitas conquistas.</p>
-                    <p>Queremos contribuir com a narrativa potente sobre o legado das mulheres negras que vieram antes de nós, das que hoje pisam nossas terras e das que virão. Para isso, produzimos análises de dados sobre a política com essa lente de gênero, raça e classe.</p>
+                    <p>São as mulheres negras que menos recebem investimentos em suas campanhas. Em 2014, apenas 2,5% das despesas de todos os candidatos ao Legislativo estava relacionada a candidaturas de mulheres negras. Como o financiamento em campanhas possui  grande correlação com maior elegibilidade, o percentual de mulheres negras eleitas no legislativo no ano  foi de apenas 1,6%. A elegibilidade de homens brancos, também no pleito de 2014, chegou à 12,6%.  Percebemos um déficit expressivo que tem se repetido a cada eleição e se apresenta como barreira para que as mulheres negras sejam eleitas de fato.</p>
+                    <p>Contudo, não buscamos falar apenas das ausências: carregamos conosco o longo e precioso legado de mulheres negras como Lélia Gonzalez, Luiza de Bairros, Benedita da Silva, Almerinda Gama, Olivia Santana, Leci Brandão, Marielle Franco e muitas outras. Mulheres negras que, mesmo em meio aos obstáculos, reivindicaram suas presenças no espaço público e nos deixaram um histórico de estratégias políticas sofisticadas e de muitas conquistas.</p>
+                    <p>Queremos contribuir com a narrativa potente sobre o legado das mulheres negras que vieram antes de nós, das que hoje pisam nossas terras e das que virão. Para isso, produzimos análises de dados sobre a política com a lente de gênero, de raça e de classe.</p>
+
+                    <img src={mndIlustraInt} alt="logo" />
 
                     <SubTitle value="Para que somos?" />
 
-                    <p>Nossos passos vêm de longe. Para nós, é imprescindível resgatar a atuação política do movimento de
-                    mulheres negras que, com sua imaginação vibrante e única, garante nossa sobrevivência numa sociedade
-                     marcada pelo racismo estrutural e pela misoginia.</p>
+                    <p>Nossos passos vêm de longe. Para nós, é imprescindível resgatar a atuação política do movimento de mulheres negras que, com sua determinação, dinamismo e intelecto, garante nossa sobrevivência numa sociedade marcada pelo racismo estrutural e pela misoginia.</p>
 
-                    <p>Pautamos a construção de um novo modelo de sociedade a partir do fortalecimento de princípios democráticos. Reivindicamos a ampla participação
-                    de mulheres negras porque somos atrizes mais que necessárias no contexto de enfrentamento ao racismo, ao machismo e ao conservadorismo que assolam
-                    a sociedade brasileira há séculos.
+                    <p>Pautamos a construção de uma sociedade a partir da ampla participação de mulheres negras na democracia. Confiar, construir e fortalecer mulheres negras  é qualificar o percurso democrático brasileiro. Mulheres Negras Decidem é uma declaração de crença no poder das gerações atuais em cumprir a promessa democrática.
                     </p>
+                    <img src={mndIlustraV1} alt="logo" />
 
-                    <p>Cabe mais uma vez ressaltar: confiar, construir e fortalecer mulheres negras representa qualificar o percurso democrático brasileiro.
-                    Mulheres Negras Decidem é uma declaração de crença no poder das gerações atuais em cumprir a promessa democrática.
-                    </p>
+                    <SubTitle value="Nossa construção até aqui" />
+                    <img src={linhaDoTempo} alt="logo" />
 
-                    <SubTitle value="Primeiros passos" />
-                    <p>O Mulheres Negras Decidem nasce da reunião de 5 mulheres negras mobilizadas pela ideia de criar espaços políticos seguros e confortáveis para mulheres negras participarem.
-
-                    </p>
-
-                    <p>Em 2018,  elas foram selecionadas para o programa Minas de Dados realizado nos meses de fevereiro e março pela Transparência Brasil, Olabi e Data_Labe, com apoio da OEA.  O programa foi uma imersão de quatro  semanas em dados abertos, narrativas e tecnologia para governos abertos. Nesta formação,  foi concebido o que o MND poderia ser e como poderia agir diante de um cenário árduo de sub-representação de mulheres negras na política institucional.
-                    </p>
-                    <p>Em março de 2018, ocorreu o assassinato de Marielle Franco, vereadora na cidade do Rio de Janeiro. Para nós, ela é um dos tantos exemplos do quanto mulheres negras são potência e carregam consigo maneiras efetivas de fazer política. A infeliz morte de Marielle se torna a materialização do porquê tornar a política um ambiente menos hostil para mulheres negras é tão importante. De fato, Marielle se tornou semente. </p>
-                    <p>Prosseguimos em 2018 com ciclos de formação política, nos quais discutimos regras do jogo eleitoral, reconstituímos a participação de diversas mulheres negras na política, bem como os sistemas políticos que serviram de pano de fundo para essas candidaturas. Em julho, lançamos nossa plataforma, onde trouxemos um  diagnóstico da presença de mulheres negras na política. Os resultados desta pesquisa você pode conferir na seção ‘Recursos MND -> Mitos’.
-
-                    </p>
-
-                    <p>Em 2019, não houve eleições, mas não paramos! Idealizamos o Fórum Mulheres Negras Decidem onde, periodicamente, nos reunimos para debater os principais assuntos em curso na política brasileira sob um olhar antirracista e feminista. Além disso, lançamos novo episódio do nosso podcast, discutimos bibliografias importantes e participamos de inúmeros eventos.
-                    </p>
-                    <p>Atualmente, uma pandemia global atinge nossas vidas, mas entendemos que é necessário seguir atuando a pleno vapor. Inspiradas pela intensa mobilização de mulheres negras a fim de mitigar os impactos negativos da pandemia em suas comunidades, realizamos  a pesquisa Para Onde Vamos, em parceria com o Instituto Marielle Franco. Nela, acessamos 245 mulheres negras de todo o território brasileiro e apresentamos um panorama do ativismo de mulheres negras no Brasil. Mais uma vez, comprovamos a riqueza do nosso pensamento político e o quanto as mulheres negras dão o tom de soluções estruturais para as crises. A pesquisa Para Onde Vamos está disponível no menu ‘Relatórios’.
-                    </p>
-                    <p> Além do relatório, lançamos novos episódios do podcast Mulheres Negras Decidem, participamos de lives e demais encontros online e demos início ao nosso ciclo de formação política 2020, desta vez em formato virtual.
-                    </p>
-                    <p>No segundo semestre de 2020, vamos lançar um livro onde reuniremos boa parte dos projetos de lei apresentados por parlamentares negras ao longo dos anos e também artigos inéditos. Nossas propostas e recomendações para as eleições de 2020 virão sistematizadas neste livro.
-                    </p>
+                   
                     <ReactPlayer
                         url="https://www.youtube.com/watch?v=l5kMEzwOGVY&feature=youtu.be"
                         className='react-player'

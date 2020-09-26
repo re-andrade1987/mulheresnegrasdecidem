@@ -29,10 +29,10 @@ class Footer extends Component {
                         <a target='blank' href='https://www.youtube.com/watch?v=l5kMEzwOGVY'><img src={youtube} alt="logo-youtube" /></a>
                     </div>
                     <p>Desenvolvido por Renata de A. Andrade</p>
-                    <div className="icon-rede-git">
+                    {/*<div className="icon-rede-git">
                         <p>GitHub Organização Mulheres Negras Decidem</p>
                         <a target='blank' href='https://github.com/MulheresNegrasDecidem'><img className='img-gitHub' src={githubAmarelo} alt="logo-github" /></a>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         );
