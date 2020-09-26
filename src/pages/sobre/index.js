@@ -7,7 +7,7 @@ import Modal from 'react-modal';
 import mndIlustra2 from '../../assets/MND_ilustra_MND_2.png';
 import mndIlustraInt from '../../assets/Ilustra_MND_card_intelectuais.png';
 import mndIlustraV1 from '../../assets/MND_ilustra_MND_v1.png';
-import linhaDoTempo from '../../assets/Linha do tempo v2.png';
+import linhaDoTempo from '../../assets/Linha do tempo v3.png';
 
 
 function Sobre() {
@@ -30,6 +30,7 @@ function Sobre() {
                     <SubTitle value="Quem é o MND?" />
                     <p>Qualificamos e promovemos a agenda liderada por mulheres negras na política institucional, fortalecendo a democracia brasileira usando como estratégia a superação da falta representatividade de mulheres negras nas instâncias de poder.</p>
                     <p>Acreditamos que a disputa de narrativa é fundamental e precisa incluir as mulheres negras urgente, já que nós somos o maior grupo demográfico do país, mais de 28% segundo a PNAD Contínua de 2019, e ocupamos menos de 2% de cadeiras no congresso nacional. Com racismo e machismo, não há democracia. Nós, mulheres negras, oferecemos um repertório político estrutural, criativo, singular e fundamental no fortalecimento de uma democracia tão fragilizada como a brasileira.</p>
+                    <p>Atuamos por meio de formação política, reposicionamento de temas na agenda pública e pesquisas centradas em dados.</p>
                     <img src={mndIlustra2} alt="logo" />
 
                     <SubTitle value="Por que somos?" />
@@ -49,15 +50,19 @@ function Sobre() {
                     <img src={mndIlustraV1} alt="logo" />
 
                     <SubTitle value="Nossa construção até aqui" />
-                    <img src={linhaDoTempo} alt="logo" />
+                 </div>
+            </div>
 
-                   
-                    <ReactPlayer
-                        url="https://www.youtube.com/watch?v=l5kMEzwOGVY&feature=youtu.be"
-                        className='react-player'
-                        width='100%' controls={true}
-                    />
-                </div>
+            <div className='timeline'>
+                <img src={linhaDoTempo} alt="logo"/>
+            </div>
+
+            <div className='video'>
+                <ReactPlayer
+                    url="https://www.youtube.com/watch?v=l5kMEzwOGVY&feature=youtu.be"
+                    className='react-player'
+                    width='100%' controls={true}
+                />
             </div>
         </section>
     )
