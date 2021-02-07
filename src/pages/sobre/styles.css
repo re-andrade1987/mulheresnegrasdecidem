@@ -55,6 +55,9 @@
 .box-title-banner img {
     width: 100%;
 }
+.button-modal {
+  cursor: pointer;
+}
 @media (min-width: 481px) and (max-width: 1025px) {
     .efeito-mark{
        display: none;

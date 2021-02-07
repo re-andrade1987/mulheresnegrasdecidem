@@ -7,11 +7,13 @@ import Modal from 'react-modal';
 import mndIlustra2 from '../../assets/MND_ilustra_MND_2.png';
 import mndIlustraInt from '../../assets/Ilustra_MND_card_intelectuais.png';
 import mndIlustraV1 from '../../assets/MND_ilustra_MND_v1.png';
-import linhaDoTempo from '../../assets/Linha do tempo v3.png';
+import linhaDoTempo from '../../assets/Linha do tempo v5.png';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
+
 
 
 function Sobre() {
-    const [modalIsopen, seModalIsopen] = useState(false)
+    const [modalIsopen, seModalIsopen] = useState(true)
 
     return (
         <section className='section-sobre'>
@@ -19,13 +21,12 @@ function Sobre() {
                 <img src={banner} alt="banner-mulheres" />
             </div>
             <div className='second-box-banner'>
-               {/*<button onClick={() => seModalIsopen(true)}>Clique aqui</button>
-                <div>
+                {/*<div classe="box-modal">
                     <Modal isOpen={modalIsopen}>
-                        <h1>Modal title</h1>
-                        <button onClick={() => seModalIsopen(false)}>Clique aqui</button>
+                        <button className="button-modal" onClick={() => seModalIsopen(false)}>Clique aqui</button>
+                        <ReactTypeformEmbed url="https://mulheresnegrasdecidem.typeform.com/to/JIMGASJa" />
                     </Modal>
-                </div>*/}
+                  </div>*/}
                 <div className='box-title-banner'>
                     <SubTitle value="Quem é o MND?" />
                     <p>Qualificamos e promovemos a agenda liderada por mulheres negras na política institucional, fortalecendo a democracia brasileira usando como estratégia a superação da falta representatividade de mulheres negras nas instâncias de poder.</p>

@@ -6,7 +6,7 @@ import ArticulacaoLocal from '../pages/articulacaoLocal';
 import Noticias from '../pages/noticias';
 import Relatorio from '../pages/relatorio';
 import Podcast from '../pages/podcast';
-import EstejaPreparada from '../pages/estejaPreparada';
+import Dados from '../pages/dados';
 import Mitos from '../pages/mitos';
 import Artigos from '../pages/artigos';
 import CadastrarArtigos from '../pages/artigos/cadastrarArtigos';
@@ -27,7 +27,7 @@ import Podcast1 from '../pages/subpodcast/podcast1';
 const Routes = () => (
   <Switch>
     <Route exact path='/' component={Sobre} />
-    <Route exact path='/estejaPreparada' component={EstejaPreparada} />
+    <Route exact path='/dados' component={Dados} />
     <Route exact path='/mitos' component={Mitos} />
     <Route exact path='/artigos' component={Artigos} />
     <Route exact path='/ondeEstamos' component={OndeEstamos} />

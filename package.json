@@ -20,6 +20,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-tableau-report": "^1.0.4",
+    "react-typeform-embed": "^0.2.1",
     "yarn": "^1.22.4"
   },
   "scripts": {
