@@ -3,7 +3,7 @@ import './styles.css';
 import MainTitle from '../../components/layoutPieces/mainTitle';
 
 
-class Dados extends Component {
+class EstejaPreaparada extends Component {
 
     render() {
         return (
@@ -20,4 +20,4 @@ class Dados extends Component {
 
 }
 
-export default Dados
+export default EstejaPreaparada
